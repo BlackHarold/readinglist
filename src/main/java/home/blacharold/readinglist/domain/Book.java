@@ -16,7 +16,7 @@ public class Book {
     private String isbn;
     private String title;
     private String author;
-    private String descriptyion;
+    private String description;
     
     
     public Long getId() {
@@ -59,12 +59,12 @@ public class Book {
         this.author = author;
     }
     
-    public String getDescriptyion() {
-        return descriptyion;
+    public String getDescription() {
+        return description;
     }
     
-    public void setDescriptyion(String descriptyion) {
-        this.descriptyion = descriptyion;
+    public void setDescription(String description) {
+        this.description = description;
     }
     
 }
